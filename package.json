@@ -1,0 +1,20 @@
+{
+  "name": "css-mixed-properties",
+  "version": "1.0.0",
+  "description": "Lints CSS rulesets for mixing structure and skin property types",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "author": "Brent Jackson",
+  "license": "MIT",
+  "devDependencies": {
+    "basscss": "^5.0.1",
+    "cssnext": "^1.1.0",
+    "mocha": "^2.2.1"
+  },
+  "dependencies": {
+    "lodash": "^3.5.0",
+    "postcss": "^4.0.6"
+  }
+}
