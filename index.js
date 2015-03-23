@@ -41,6 +41,7 @@ module.exports = function(css, options) {
       selector: rule.selector,
       line: rule.source.start.line,
       declarations: {
+        total: properties.length,
         structure: x,
         skin: y
       },
