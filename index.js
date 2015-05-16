@@ -7,9 +7,10 @@ module.exports = function(css, options) {
 
   var options = options || {};
   options = _.defaults(options, {
+    safe: true
   });
 
-  var root = postcss.parse(css);
+  var root = postcss.parse(css, options);
 
   var results = {};
   results.rules = [];
